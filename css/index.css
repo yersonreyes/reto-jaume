@@ -1,6 +1,8 @@
 @import "./css/header.css";
 @import "./css/button.css";
 @import "./css/button-icon.css";
+@import "./css/hero.css";
+@import "./css/wrapper.css";
 :root { 
   --fontbase: 'Poppins', sans-serif ;
   --gradient: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);; 
@@ -22,7 +24,8 @@
 body{
   background: var(--gradient);
   min-block-size: 100vh;
-  font: var(--headline5);
+  font: var(--body1);
+  color: var(--purple);
   }
 
 
