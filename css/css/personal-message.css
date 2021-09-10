@@ -1,0 +1,39 @@
+.personal-message{
+padding-block-start: 40px ;
+padding-block-end: 40px ;
+display: flex;
+justify-content: center;
+}
+
+.personal-messageContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    text-align: center;
+    max-inline-size: 900px;
+}
+
+.personal-messageParrafo2{
+    margin: 0;
+    font: var(--headline5);
+}
+
+.personal-messageParrafo1{
+    margin: 0;
+    font: var(--fontvariable);
+}
+
+.personal-messageContent img{
+    inline-size: 80px;
+    block-size: 80px;
+}
+
+@media screen and (min-width: 768px){
+
+    .personal-message{
+        padding-block-start: 200px ;
+        padding-block-end: 200px ;
+        }
+}

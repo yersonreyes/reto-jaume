@@ -4,10 +4,12 @@
 @import "./css/hero.css";
 @import "./css/wrapper.css";
 @import "./css/menu.css";
+@import "./css/personal-message.css";
 
 
 :root { 
   --fontbase: 'Poppins', sans-serif ;
+  --fontbase2: 'Oxygen', sans-serif;
   --gradient: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);; 
   --headline1: bold 95px/153.71px var(--fontbase); 
   --headline2: bold 59px/95px var(--fontbase); 
@@ -18,6 +20,7 @@
   --body2:  14px/22px var(--fontbase); 
   --button: bold 14px/22px var(--fontbase); 
   --caption: 12px/19px var(--fontbase); 
+  --fontvariable: 30px/55px var(--fontbase2);
   --purple: #310a90;
   --green:#42e2b8;
   --white: white;
