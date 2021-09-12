@@ -5,6 +5,7 @@
     border: 2px solid var(--purple);
     text-decoration: none;
     display: inline-flex;
+    cursor: pointer;
 }
 
 .button-icon img{

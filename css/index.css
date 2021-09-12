@@ -32,6 +32,10 @@
   
   
 }
+html{
+  scroll-behavior: smooth;
+}
+
 body{
   background: var(--gradient);
   min-block-size: 100vh;

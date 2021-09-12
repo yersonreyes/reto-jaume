@@ -4,7 +4,7 @@
 }
 
 .proyect-img{
-  
+  text-align: center;
 }
 
 .proyect-img img{
@@ -29,8 +29,13 @@
         flex: 1;
     }
     .proyect:nth-child(odd) .proyect-img{
-        order: 2;
+        
         flex: 1;
         text-align: center;
+        
+    }
+
+    .proyect-order{
+        order: 2;
     }
 }
