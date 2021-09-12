@@ -9,8 +9,8 @@
 @import "./css/proyect.css";
 @import "./css/social.css";
 @import "./css/footer.css";
-
-
+@import "./css/form.css";
+@import "./css/title.css";
 :root { 
   --fontbase: 'Poppins', sans-serif ;
   --fontbase2: 'Oxygen', sans-serif;

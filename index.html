@@ -12,18 +12,22 @@
   <title>Portafolio Jaume</title>
 </head>
 <body>
+  <header class="header">
+    <div class="wrapper">
+      <div class="header-content">
+        <img src="./images/LOGO.png" width="70" height="20" alt="Logo">
+        <nav class="menu"> 
+          <ul>
+            <li><a class="is-active" href="#main">Hola</a></li>
+            <li><a href="">Proyectos</a></li>
+            <li><a href="">Hablemos</a></li>
+          </ul>
+        </nav>
+        <button class="button">Curriculum</button>
+      </div>
+    </div>
+  </header>
   <div class="wrapper">
-    <header class="header">
-      <img src="./images/LOGO.png" width="70" height="20" alt="Logo">
-      <nav class="menu"> 
-        <ul>
-          <li><a class="is-active" href="#main">Hola</a></li>
-          <li><a href="">Proyectos</a></li>
-          <li><a href="">Hablemos</a></li>
-        </ul>
-      </nav>
-      <button class="button">Curriculum</button>
-    </header>
     <section class="hero" id="main">
   
       <div class="hero-image">
@@ -72,14 +76,27 @@
         <img src="./images/img.png" alt="">
       </div>
       <div class="proyect-description">
-        <a class="proyect-title" href="https://leonidasesteban.com" target="_blank">LeonidasEsteban.com</a>
+        <a class="title" href="https://leonidasesteban.com" target="_blank">LeonidasEsteban.com</a>
         <p>Accede a más de 120 proyectos que te ayudarán a mejorar 
           tus habilidades como desarrollador Front-End.</p>
         <a href="" target="_blank" class="button is-secondary">Ver Codigo</a>
         <a href="" target="_blank" class="button ">Ver Proyecto</a>
       </div>
     </section>
-
+    <form action="" method="GET" class="form">
+      <h2 class="title">Hablemos</h2>
+      <p>Si está interesado en trabajar conmigo en su próximo proyecto, no dude en ponerse en contacto conmigo.</p>
+      <label  for="forn-name">Nombre Completo
+        <input required name="name" id="forn-name" type="text" placeholder="Juan">
+      </label>
+      <label for="forn-email">Correo electronico
+        <input required name="email" id="forn-email" type="email" placeholder="Juan@email.com">
+      </label>
+      <label for="for-message">Mensaje
+        <textarea required name="message" id="for-message" cols="30" rows="10"></textarea>
+      </label>
+      <button class="button" type="submit">Enviar mensaje</button>
+    </form>
     <footer class="footer">
       <div class="footer-logo">
         <img src="./images/LOGO.png" width="70" height="20" alt="Logo">
@@ -91,7 +108,7 @@
         <a class="button-icon"><img src="./icons/icon-twitter_squared.svg"></a>
       </div>
       <div class="footer-copyright">
-        <p>Hecho con ♥️ de jaume</p>
+        <p>Hecho con ♥️ por Yerson</p>
         <p>Copyright 2021 - Todos los derechos reservados.</p>
       </div>
     </footer>
